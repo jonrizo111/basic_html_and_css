@@ -13,6 +13,10 @@ body {
     text-align: center;
   }
   
+   .profile-pic:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
   h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
