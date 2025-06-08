@@ -6,6 +6,8 @@
   <title>Jonathan Gottzmann | Resume</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+
+    /*
     body {
       background-color: #f4f4f4;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +15,7 @@
     }
 
     .resume-link {
-      color: #1a73e8; /* clean blue */
+      color: #1a73e8; /* clean blue */ /*
       font-weight: 500;
       text-decoration: none;
       border-bottom: 1px solid #1a73e8;
@@ -30,6 +32,70 @@
 
     li {
       margin-bottom: 10px;
+    }
+
+    */
+    /* Base mobile-first styles */
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 16px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+
+    .resume-link {
+      color: #1a73e8;
+      font-weight: 500;
+      text-decoration: none;
+      border-bottom: 1px solid #1a73e8;
+      transition: all 0.2s ease-in-out;
+      display: inline-block;
+      max-width: 100%;
+      word-wrap: break-word;
+    }
+
+    .resume-link:hover {
+      color: #0c47b7;
+      border-bottom: 1px solid #0c47b7;
+      background-color: #e9f1ff;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    /* Medium to large screen enhancements */
+    @media (min-width: 768px) {
+      body {
+        padding: 32px;
+        font-size: 1.1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
     }
   </style>
 
@@ -95,6 +161,18 @@
     </li>
 
 
+    <li>
+      <a href="ithelpdeskskill1.html#system-frozen-or-slow" class="resume-link">
+        Diagnosed and resolved system performance issues on Linux using commands like top, htop, kill, and uptime
+         to monitor resource usage, identify problem processes, and manage stuck applications.    </a>
+    </li>
+
+    
+    <li>
+      <a href="ithelpdeskskill1.html#software-not-working" class="resume-link">
+        Troubleshoot and install missing Linux software using which, dpkg -l | grep, apt install, 
+        and sudo to verify, locate, and resolve software issues.    </a>
+    </li>
 
   </ul>
     <h2>Experience</h2>
